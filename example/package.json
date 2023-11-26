@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "@editor/example",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@editor/lib": "workspace:^",
     "vue": "^3.3.8"
   },
   "devDependencies": {

@@ -1,0 +1,13 @@
+{
+  "name": "@editor/lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+  },
+  "main": "src/main.ts",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}

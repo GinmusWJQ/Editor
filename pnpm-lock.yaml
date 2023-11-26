@@ -10,6 +10,9 @@ importers:
 
   example:
     dependencies:
+      '@editor/lib':
+        specifier: workspace:^
+        version: link:../lib
       vue:
         specifier: ^3.3.8
         version: 3.3.8(typescript@5.2.2)
@@ -26,6 +29,15 @@ importers:
       vue-tsc:
         specifier: ^1.8.22
         version: 1.8.22(typescript@5.2.2)
+
+  lib:
+    devDependencies:
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+      vite:
+        specifier: ^5.0.0
+        version: 5.0.0
 
 packages:
 
